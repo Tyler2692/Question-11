@@ -4,12 +4,12 @@ using namespace std;
 int main()
 {
     double tanksize = 20; //number of gallons in tank
-    double mpgtown = 23.5 // miles per gallon used in town
+    double mpgtown = 23.5; // miles per gallon used in town
     double mpghighway = 28.9; // miles per gallon used on highway
 
     double distancetown = tanksize * mpgtown;
     double distancehighway = tanksize * mpghighway;
 
-    cout << "distance driven in town is " << distancetown << " and distance driven on highway is " << distancetown << endl;
+    cout << "distance driven in town is " << distancetown << " and distance driven on highway is " << distancehighway << endl;
     return 0;
 }
