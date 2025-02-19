@@ -10,6 +10,6 @@ int main()
     double distancetown = tanksize * mpgtown;
     double distancehighway = tanksize * mpghighway;
 
-    cout << "distance driven in town is " << distancetown << " and distance driven on highway is " << distancehighway << endl;
+    cout << "distance driven in town is " << distancetown << " miles and distance driven on highway is " << distancehighway << " miles" << endl;
     return 0;
 }
